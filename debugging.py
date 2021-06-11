@@ -2,7 +2,7 @@ def divisors(num):
     divisors = []
     try:
         if num < 0:
-            raise ValueError("Hacé el número positivo cabezaenuez")
+            raise ValueError("Haz el número positivo")
         else:
             for i in range(1, num +1):
                 if num % i == 0:
@@ -22,7 +22,7 @@ def run():
         
         print('Hasta aquí voy')
     except ValueError:
-        print("Ingresa un número pelotudo")
+        print("Ingresa un número")
 
 
 if __name__ == "__main__":

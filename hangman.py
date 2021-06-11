@@ -14,9 +14,10 @@ def run():
         palabra = list(palabra)
        
      
+     
     os.system("cls")
     print("Empieza el juego")
-    print(palabra)
+    #print(palabra)
     palabra_actual = list("_" * len(palabra))
     cant_barraspiso = len(palabra_actual)
     print(palabra_actual)
@@ -28,8 +29,7 @@ def run():
                 cant_barraspiso -= 1
             
         print(palabra_actual)
-
-        
+       
 
 if __name__ == "__main__":
     run()
